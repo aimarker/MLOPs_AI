@@ -1,5 +1,5 @@
 # This is a basic workflow to help get started with Actions
-name: MLOps_AI test with Github Actions
+name: MLOps_AI tests
 
 # Controls when the workflow will run
 # Triggers the workflow on push

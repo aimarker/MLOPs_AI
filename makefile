@@ -1,9 +1,9 @@
 # makefile
 
 setup:
-	python3 -m venv ~/.MLOpsAI
+	python3 -m venv ../.MLOpsAI
 	# Run this command manually
-	# source ~/.MLOpsAI/bin/activate
+	# source ../.MLOpsAI/bin/activate
 
 install:
 	pip install --upgrade pip &&\

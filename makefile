@@ -8,10 +8,11 @@ setup:
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-	dvc pull -r origin
 	
 test:
 	python3 -m pytest -vv -cov=hello hello_test.py
 
 lint:
 	pylint --disable=R,C test/*.py model/*.py
+
+all : setup install lint test

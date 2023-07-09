@@ -14,3 +14,6 @@ install:
 	
 test:
 	python3 -m pytest -vv -cov=hello hello_test.py
+
+lint:
+	pylint --disable=R,C *.py

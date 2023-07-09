@@ -12,18 +12,18 @@ MLOPs ACP AI
    git clone https://github.com/your_username_/Project-Name.git
    ```
 3. Setup environments
-```sh
-make setup
-```
+   ```sh
+   make setup
+   ```
 4. Install required packages
-```sh
-make install
-```
+   ```sh
+   make install
+   ```
 5. Check code styles
-```sh
-make lint
-```
+   ```sh
+   make lint
+   ```
 6. Run tests
-```sh
-make test
-```
+   ```sh
+   make test
+   ```

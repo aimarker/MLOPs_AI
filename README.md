@@ -9,7 +9,7 @@ MLOPs ACP AI
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/aimarker/MLOPs_AI.git
    ```
 3. Setup environments
    ```sh
